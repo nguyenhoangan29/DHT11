@@ -1,0 +1,9 @@
+version: '3'
+services:
+  
+  fuxa:
+    image: frangoteam/fuxa
+    ports:
+      - "1881:1881"
+    volumes:
+      - ./fuxa/data:/data
